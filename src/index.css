@@ -122,12 +122,6 @@ body {
   margin-bottom: 20px !important;
 }
 
-.form__form {
-}
-
-.form__label {
-}
-
 .form__input {
   border-radius: 20px;
   background: var(--white);
