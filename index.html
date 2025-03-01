@@ -1,1 +1,69 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Task 25</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin referrerpolicy="no-referrer"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&display=swap" rel="stylesheet"><link rel="stylesheet" href="index.e02c5f2f.css"></head><body> <section class="hero"> <img src="duckling.dfc8a3cb.webp" alt="Ducklings" class="hero__img"> <div class="container"> <div class="hero__text"> <h1 class="hero__title"> <span class="hero__pink">Strawberry</span>&<span class="hero__yellow">Ducklings</span> </h1> <p class="hero__desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum aspernatur delectus iure numquam unde alias distinctio veritatis enim quasi. </p> </div> </div> </section> <section class="form"> <img src="strawberry.a36f8d33.webp" alt="Ducklings" class="form__img"> <div class="container"> <div class="form__text"> <h1 class="form__title">Fill the form</h1> <p class="form__desc">Lorem ipsum dolor sit amet consectetur.</p> <form id="form" class="form__form"> <label class="form__label"> <input id="form-name" required type="text" placeholder="Enter your name" class="form__input"> </label> <label class="form__label"> <input id="form-email" required type="email" placeholder="Enter your email" class="form__input"> </label> <label class="form__label"> <textarea id="form-message" required placeholder="Enter your message" class="form__textarea"></textarea> </label> <button type="submit" id="submit-btn" class="form__submit"> Submit </button> </form> </div> </div> </section> <div id="backdrop" class="backdrop is-hidden"> <div class="modal"> <button id="close-btn" class="modal__btn"> <svg width="28" height="28" class="modal__dagger"><use href="icons.c5b0f01c.svg#close-dagger"/></svg> </button> <h2 class="modal__title">We got your message</h2> <p class="modal__desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum aspernatur delectus iure numquam unde alias distinctio veritatis enim quasi. </p> </div> </div> <script src="index.1c573947.js" type="module"></script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 25</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.61d3354a.css">
+  </head>
+  <body>
+    <section class="hero">
+      <img src="/duckling.11318e65.webp" alt="Ducklings" class="hero__img">
+      <div class="container">
+        <div class="hero__text">
+          <h1 class="hero__title">
+            <span class="hero__pink">Strawberry</span>&<span class="hero__yellow">Ducklings</span>
+          </h1>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            dolorum aspernatur delectus iure numquam unde alias distinctio
+            veritatis enim quasi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <img src="/strawberry.39b5dda6.webp" alt="Ducklings" class="form__img">
+      <div class="container">
+        <div class="form__text">
+          <h1 class="form__title">Fill the form</h1>
+          <p class="form__desc">Lorem ipsum dolor sit amet consectetur.</p>
+          <form id="form" class="form__form">
+            <label class="form__label">
+              <input id="form-name" required="" type="text" placeholder="Enter your name" class="form__input">
+            </label>
+            <label class="form__label">
+              <input id="form-email" required="" type="email" placeholder="Enter your email" class="form__input">
+            </label>
+            <label class="form__label">
+              <textarea id="form-message" required="" placeholder="Enter your message" class="form__textarea"></textarea>
+            </label>
+            <button type="submit" id="submit-btn" class="form__submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div id="backdrop" class="backdrop is-hidden">
+      <div class="modal">
+        <button id="close-btn" class="modal__btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28" fill="none">
+            <path d="M18.9375 12.2697L28 22.7775C27.5833 24.2457 26.875 25.4202 25.875 26.3011C24.9167 27.14 23.75 27.5596 22.375 27.5596C21.9167 27.5596 21.3542 27.4337 20.6875 27.182C20.0625 26.8884 19.5208 26.4479 19.0625 25.8607L13.0625 18.4989L9.75 15.5416L0 5.47416C0.33333 4.17378 1.02083 2.99924 2.0625 1.95056C3.14583 0.859928 4.29167 0.314607 5.5 0.314607C6.08333 0.314607 6.60417 0.440449 7.0625 0.692135C7.5625 0.901869 8 1.23746 8.375 1.69888L15.9375 9.94157L18.9375 12.2697ZM25.25 8.68315L18.4375 15.7933L14.5 18.8764L6.125 28C4.45833 27.7483 3.0625 27.0982 1.9375 26.0494C0.85417 24.9588 0.3125 23.8681 0.3125 22.7775C0.3125 22.3161 0.4375 21.8546 0.6875 21.3933C0.97917 20.8899 1.39583 20.3445 1.9375 19.7573L8.9375 12.2067L12.625 9.81573L21.9375 0C23.2292 0.419479 24.375 1.13258 25.375 2.13933C26.375 3.14607 26.875 4.27865 26.875 5.53708C26.875 5.9985 26.75 6.50187 26.5 7.04719C26.25 7.55056 25.8333 8.09588 25.25 8.68315Z" fill="white"></path>
+          </svg>
+        </button>
+        <h2 class="modal__title">We got your message</h2>
+        <p class="modal__desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          dolorum aspernatur delectus iure numquam unde alias distinctio
+          veritatis enim quasi.
+        </p>
+      </div>
+    </div>
+    <script src="/index.975ef6c8.js" defer=""></script>
+  </body>
+</html>
