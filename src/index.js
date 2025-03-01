@@ -1,15 +1,13 @@
 const form = document.querySelector("#form");
-const submitBtn = document.querySelector("#submit-btn");
 const backdrop = document.querySelector("#backdrop");
 const closeBtn = document.querySelector("#close-btn");
 const page = document.querySelector("body");
+import { makeUser } from "./make-user.js";
 const user = {};
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  user.name = form.querySelector("#form-name").value;
-  user.email = form.querySelector("#form-email").value;
-  user.message = form.querySelector("#form-message").value;
+  makeUser(form, user);
   form.querySelector("#form-name").value = "";
   form.querySelector("#form-email").value = "";
   form.querySelector("#form-message").value = "";
